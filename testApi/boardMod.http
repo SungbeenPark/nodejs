@@ -1,0 +1,12 @@
+
+PUT http://localhost:3000/board/post/2
+Content-Type: application/json
+
+{
+  "title": "제목22",
+  "contents": "내용22",
+  "user": "박성빈",
+  "password": "1234"
+}
+
+

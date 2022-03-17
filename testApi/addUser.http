@@ -1,0 +1,11 @@
+
+POST http://localhost:3000/join/
+Content-Type: application/json
+
+{
+  "userid": "been772",
+  "password": "123123",
+  "name": "박성빈11"
+}
+
+

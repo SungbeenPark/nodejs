@@ -1,0 +1,12 @@
+
+POST http://localhost:3000/board/post
+Content-Type: application/json
+
+{
+  "title": "제목",
+  "contents": "내용",
+  "user": "박성빈",
+  "password": "1234"
+}
+
+

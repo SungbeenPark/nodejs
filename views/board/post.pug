@@ -1,0 +1,20 @@
+// post.pug
+doctype html
+html
+    head
+        title 게시글 작성
+    body
+        h1 게시글 작성
+        div
+            input#name(type="text", placeholder="닉네임")
+            br
+            input#password(type="password", placeholder="비밀번호")
+        div
+            input#title(type="text", placeholder="제목")
+            br
+            textarea#contents(placeholder="내용", rows=5)
+        div
+            a#write(href="#") 게시글 작성
+            br
+            a(href="/board") 돌아가기
+    script(src="/javascripts/post.js")
